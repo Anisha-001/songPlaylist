@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem;
+    background-color: green;
+}
+
+.controls{
+    margin-bottom: 1 rem;
+}
+.playlist li{
+    cursor: pointer;
+    margin: 0.3 rem 0;
+}
+.playlist li.current{
+    font-weight: bold;
+    color: white;
+}
+
+.delete-btn{
+    margin-left:1rem;
+    color: red;
+    cursor: pointer;
+}
